@@ -1,0 +1,32 @@
+# Ignore everything
+*
+# Whitelist anything that's a directory
+!*/
+
+# ignore certain directory
+/test/
+/output/
+/Data/
+sandbox/
+.vscode/
+.venv/
+data/
+cache/
+.ipynb_checkpoints/
+ignore_*/
+
+# And all the file types I'm interested in.
+!.gitignore
+!*.py
+!*.cpp
+!*.sql
+!*.sample
+!*.h
+!*.sh
+!*.md
+!*.ini
+!*.ipynb
+!*.html
+!*.conf
+!CMakeLists.txt
+
